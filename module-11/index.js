@@ -41,7 +41,9 @@ buttons.addEventListener("click", btnFunc);
 
 // const delay = ms => {
 //   return new Promise((resolve, rejected) => {
-//     resolve(ms);
+//     setInterval(() => {
+//       resolve(ms);
+//     }, ms);
 //   });
 // };
 
