@@ -1,0 +1,13 @@
+<h1 class="text-muted">{{name}}</h1>
+<div class="section">
+    <div class="text-wrapper">
+        <p>Capital: <span>{{capital}}</span></p>
+        <p>Population: <span>{{population}}</span></p>
+        <p>Languages:
+            {{#each languages}}
+            <span>{{this.name}}</span>
+            {{/each}}
+        </p>
+    </div>
+    <img src="{{flag}}" alt="flag">
+</div>
