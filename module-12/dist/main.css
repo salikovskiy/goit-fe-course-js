@@ -1,0 +1,31 @@
+p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+span {
+  font-weight: 400;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 470px;
+  box-shadow: 0 0 20px rgba(78, 78, 78, 0.219);
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.text-wrapper {
+  margin-right: 80px;
+  padding: 30px 85px 0 30px;
+  box-shadow: 0 0 20px rgba(78, 78, 78, 0.219);
+}
+
