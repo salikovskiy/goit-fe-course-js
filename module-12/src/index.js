@@ -2,6 +2,7 @@ import "./style.css";
 import template from "./template.hbs";
 import templateLoad from "./templateLoad.hbs";
 import debounce from "lodash.debounce";
+import "pnotify/dist/PNotifyBrightTheme.css";
 import PNotify from "pnotify/dist/es/PNotify";
 import PNotifyButtons from "pnotify/dist/es/PNotifyButtons";
 
