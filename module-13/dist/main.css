@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#btn-n {
+  display: none;
+}
+
+#btn-v {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.photo-card {
+  width: 220px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+img {
+  width: 220px;
+}
+
+.photo-card:hover img {
+  filter: brightness(0.4);
+}
+
+.stats {
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 15px;
+}
+p {
+  color: white;
+  font-size: 12px;
+}
+
+.photo-card:hover .stats {
+  display: flex;
+}
+
